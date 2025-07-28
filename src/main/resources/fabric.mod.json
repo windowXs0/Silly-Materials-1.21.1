@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "sillymaterials",
+	"version": "${version}",
+	"name": "sillymaterials",
+	"description": "a silly mod!",
+	"authors": [
+		"windoXs0"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/sillymaterials/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.windoxs0.Sillymaterials"
+		],
+		"fabric-datagen": [
+			"com.windoxs0.SillymaterialsDataGenerator"
+		],
+		"client": [
+			"com.windoxs0.SillymaterialsClient"
+		]
+	},
+	"mixins": [
+		"sillymaterials.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
