@@ -1,4 +1,4 @@
-package com.windoxs0;
+package com.windoxs0.sillymaterials;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

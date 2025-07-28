@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.windoxs0.Sillymaterials"
+			"com.windoxs0.sillymaterials.Sillymaterials"
 		],
 		"fabric-datagen": [
-			"com.windoxs0.SillymaterialsDataGenerator"
+			"com.windoxs0.sillymaterials.SillymaterialsDataGenerator"
 		],
 		"client": [
-			"com.windoxs0.SillymaterialsClient"
+			"com.windoxs0.sillymaterials.SillymaterialsClient"
 		]
 	},
 	"mixins": [

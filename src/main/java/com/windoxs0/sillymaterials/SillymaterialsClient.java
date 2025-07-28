@@ -1,4 +1,4 @@
-package com.windoxs0;
+package com.windoxs0.sillymaterials;
 
 import net.fabricmc.api.ClientModInitializer;
 

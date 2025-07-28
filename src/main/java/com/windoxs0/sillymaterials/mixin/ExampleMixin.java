@@ -1,4 +1,4 @@
-package com.windoxs0.mixin;
+package com.windoxs0.sillymaterials.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

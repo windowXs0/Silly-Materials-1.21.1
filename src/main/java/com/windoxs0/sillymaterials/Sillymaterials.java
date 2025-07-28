@@ -1,9 +1,13 @@
-package com.windoxs0;
+package com.windoxs0.sillymaterials;
 
+import com.windoxs0.sillymaterials.block.ModBlocks;
+import com.windoxs0.sillymaterials.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.lang.reflect.Modifier;
 
 public class Sillymaterials implements ModInitializer {
 	public static final String MOD_ID = "sillymaterials";
@@ -18,7 +22,8 @@ public class Sillymaterials implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
